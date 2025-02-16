@@ -1,0 +1,74 @@
+.nekretnine{
+    display: flex;
+    flex-direction: column;
+    background-color: #fdf1d3;
+    margin-top: 40px;
+}
+
+body{
+    background-color: #fdf1d3;
+}
+
+img{
+    width:125px; 
+    height: 125px;
+}
+
+.cijena{
+    display: flex;
+    justify-content: right;
+}
+
+.card{
+    min-width: 300px;
+    height:280px;
+    padding:7px;
+    box-sizing: border-box;
+}
+
+.stanovi{
+    background-color: white;
+}
+
+.kuca{
+    background-color: powderblue;
+}
+
+.poslovni{
+    background-color: green;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    align-items: center;
+}
+
+body {
+    font-family: Georgia, serif;
+  }
+
+.grid-container {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:20px;
+  }
+
+.godina_izgradnje{
+    justify-content: right;
+}
+
+.hidden{
+    display: none;
+}
+
+.expandDiv{
+    z-index: 100;
+}

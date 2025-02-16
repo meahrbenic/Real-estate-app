@@ -1,0 +1,32 @@
+.meni{
+    background-color:  #ffc56f;
+    text-align: center;
+    margin: 0; 
+    top:0; 
+    left:0;
+    position: fixed;
+    width: 100%;
+}
+
+.meni-container{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 0 20%;
+}
+
+a{
+    color:rgb(0, 89, 255);
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: #ff9900;
+}
+
+body{
+    background-color: #fdf1d3;
+}

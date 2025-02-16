@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Detalji</title>
+    <meta charset="utf-8" />
+    <link href="../css/detalji.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../css/meni.css" />
+    <link rel="stylesheet" href="../css/iframe.css" />
+  </head>
+  <body>
+    <div class="iframe-container"><iframe src="./meni.html"></iframe></div>
+    <div class="body" id="sve">
+      <div id="osnovno">
+        <h3>OSNOVNO</h3>
+        <img
+          src="../slike/slika.webp"
+          class="slika"
+          alt="slika dnevnog boravka stana"
+        />
+        <p id="naziv" class="info"><b>Naziv: </p>
+        <p id="kvadratura" class="info"><b>Kvadratura: </p>
+        <p id="cijena" class="info"><b>Cijena: </p>
+      </div>
+
+      <div id="detalji">
+        <h3>DETALJI</h3>
+        <div class="tabelica">
+          <div class="kolona1">
+            <p id="tip_grijanja"><b>Tip grijanja: </p>
+            <p id="lokacija"><b>Lokacija: </p>
+          </div>
+
+          <div class="kolona1">
+            <p id="godina_izgradnje"><b>Godinja izgradnje: </p>
+            <p id="datum_objave"><b>Datum objave: </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="upiti">
+        <h3><b>UPITI</b></h3>
+        <ol id="listUpita">
+
+        </ol>
+      </div>
+
+      <div id="noviUpitDiv">
+        <h4>Novi upit: </h4>
+        <input type="text" id="noviUpitInput" placeholder="Unesite novi upit">
+        <br>
+        <button id="potvrdiUnos">Potvrdi unos</button>
+      </div>
+
+      
+    </div>
+  </body>
+  <script src="../scripts/poziviAjax.js"></script>
+  <script type="text/javascript" src="../scripts/spojiDetalje.js"></script>
+  <script type="text/javascript" src="../scripts/spojiUpite.js"></script>
+</html>

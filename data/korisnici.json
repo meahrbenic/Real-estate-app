@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "ime": "Niko",
+    "prezime": "Nikic",
+    "username": "username11",
+    "password": "meahrbenic"
+  },
+  {
+    "id": 2,
+    "ime": "Neko2",
+    "prezime": "Nekic2",
+    "username": "username2",
+    "password": "$2a$12$TIB20mM/NSJCWMI3WDnbfejpkiQ.IFQkgZzhMJZVJDtUfokhaawBW"
+  }
+]
